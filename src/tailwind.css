@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+
+.primary-button {
+  @apply bg-primary  py-4 px-5 text-sm gap-4 tracking-[0.2px] leading-5 text-white rounded-md;
+}
+@tailwind utilities;
+
+@font-face {
+  font-family: Montserrat;
+  src: url("./assets/monsterrat/Montserrat-Bold.ttf"),
+    url("./assets/monsterrat/Montserrat-Regular.ttf");
+}
